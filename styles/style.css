@@ -1,0 +1,27 @@
+#WordsResult {
+    word-break: break-all;
+}
+
+ul {
+    overflow: auto;
+    padding: 12px;
+}
+
+ul li {
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+ul li:after {
+    content: url('../assets/volume-black.png');
+    position: relative;
+    top: 3px;
+    left: 7px;
+}
+
+ul li:hover {
+    color: rgb(14, 165, 233);
+}
+
+.form-control { position: relative;}
+.start-letter-flag { position: absolute; left: 0; z-index: 9;}
